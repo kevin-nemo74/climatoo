@@ -36,7 +36,9 @@ class _LocationScreenState extends State<LocationScreen> {
                     ),
                   ),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
                     child: Icon(
                       Icons.location_city,
                       size: 50.0,
